@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tela{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    height: 30%;
+    width: 40%;
+    flex-wrap: wrap;
+}
+.tela h1{
+    text-transform: uppercase;
+}
+.tela form{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 15%;
+}
