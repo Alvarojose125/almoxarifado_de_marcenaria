@@ -40,7 +40,7 @@ session_start();
         <input type="number" id="comprimento" name="comprimento" required><br>
 
         <input type="submit" value="cadastrar">
-        <a href="consulta.php">cosunltar</a>
+        <a class='botao-link' href='consulta.php'>consultar</a>
     </form>
     <?php
     if(isset($_SESSION['msg'])){
